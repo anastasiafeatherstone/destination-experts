@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/favicon.png" />
+
+    <!-- REMIXICONS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet" />
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Rental Value On AirBnB - Travel Agency Website</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="home.html" class="nav__logo">Destination Experts</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <!-- HOME PAGE -->
+            <li class="nav__item">
+              <a href="home.html" class="nav__link">Home</a>
+            </li>
+
+            <!-- HOME PAGE -->
+            <li class="nav__item">
+              <a href="popular.html" class="nav__link">Popular</a>
+            </li>
+
+            <!-- HOME PAGE -->
+            <li class="nav__item">
+              <a href="explore.html" class="nav__link">Explore</a>
+            </li>
+
+            <!-- HOME PAGE -->
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link active-link">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home section" id="home">
+        <img
+          src="assets/alexis-gerbaud-CER5mH8pWfA-unsplash.jpg"
+          alt="Hero Image"
+          class="home__bg" />
+        <div class="home__shadow"></div>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Welcome <br />
+              Explorer
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPLORE -->
+      <section class="explore section" id="explore">
+        <div class="explore__container">
+          <div class="explore__image">
+            <img
+              src="assets/clovis-wood-photography-DoQLMWrbHmc-unsplash.jpg"
+              alt="Explore"
+              class="explore__img" />
+
+            <div class="explore__shadow"></div>
+          </div>
+
+          <div class="explore__content container grid">
+            <div class="explore__data">
+              <h2 class="section__title">
+                Explore The <br />
+                Best Paradises
+              </h2>
+
+              <p class="explore__description">
+                Discover tranquility and adventure as you explore stunning
+                cities and iconic landmarks around the world. Escape the daily
+                grind and immerse yourself in unforgettable experiences.
+              </p>
+            </div>
+
+            <div class="explore__user">
+              <img
+                src="assets/anastasia-featherstone.jpg"
+                alt="Explore"
+                class="explore__perfil" />
+
+              <span class="explorer__name">Anastasia Featherstone</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- JOIN -->
+      <section class="join section">
+        <div class="join__container container grid">
+          <div class="join__data">
+            <h2 class="section__title">
+              Your Journey <br />
+              Start Here
+            </h2>
+
+            <p class="join__description">
+              Get up to date with the latest travel and information from us.
+            </p>
+
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              class="join__form">
+              <input
+                type="hidden"
+                name="access_key"
+                value="02b66510-853c-47b4-9511-2e6632749a30" />
+
+              <input
+                type="text"
+                placeholder="Your name here"
+                class="join__input"
+                required />
+
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="join__input"
+                required />
+
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                class="join__message"
+                rows="5"
+                required></textarea>
+
+              <button class="join__button button">
+                Subscribes to our newsletter
+                <i class="ri-arrow-right-wide-line"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="join__image">
+            <img
+              src="assets/Montreal-Quebec, Canada.jpg"
+              alt="Join Us"
+              class="join__img" />
+            <div class="join__shadow"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div>
+            <a href="home.html" class="footer__logo">Destination Experts</a>
+
+            <p class="footer__description">
+              Travel with us and explore <br />
+              the world without limits.
+            </p>
+          </div>
+
+          <div class="footer__data grid">
+            <!-- About links -->
+            <div>
+              <h3 class="footer__title">About</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">About Us</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Features</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">News & Blog</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company links -->
+            <div>
+              <h3 class="footer__title">Company</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">FAQs</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">History</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Contact links -->
+            <div>
+              <h3 class="footer__title">Contact</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">Call Center</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Support Center</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Support links -->
+            <div>
+              <h3 class="footer__title">Support</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">Privacy Policy</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Terms & Services</a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer__link">Payments</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <div class="footer__social">
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/anastasiafeatherstone411/"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/profile.php?id=61561892108788"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-facebook-box-fill"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/imanastasia411/"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+
+            <!-- Threads -->
+            <a
+              href="https://www.threads.net/@imanastasia411"
+              target="_blank"
+              class="footer__social-link">
+              <i class="ri-threads-fill"></i>
+            </a>
+          </div>
+
+          <span class="footer__copyright">
+            &#169; Since 2024. Visit
+            <a
+              href="anastasia-featherstone-portfolio.webflow.io"
+              target="_blank"
+              class="website__link"
+              >Anastasia Featherstone
+            </a>
+            for more projects.
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- SCROLL REVEAL -->
+    <script src="scrollreveal.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
